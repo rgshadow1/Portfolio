@@ -217,6 +217,12 @@ section {
   color: var(--faint);
 }
 
+.project-logo {
+  width: 4.5rem;
+  height: auto;
+  align-self: start;
+}
+
 .bullets {
   margin: 0.5rem 0 0 1.1rem;
   padding: 0;
@@ -375,6 +381,11 @@ footer .foot-links a + a {
   .entry {
     grid-template-columns: 1fr;
     gap: 0.1rem;
+  }
+
+  .project-logo {
+    width: 3.5rem;
+    margin-bottom: 0.75rem;
   }
 
   .entry .when {
